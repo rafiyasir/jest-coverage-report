@@ -1,0 +1,25 @@
+{
+  "name": "jest-coverage-report",
+  "version": "1.0.0",
+  "description": "github action and jest coverage report example",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafiyasir/jest-coverage-report.git"
+  },
+  "author": "Rafi Uzzaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafiyasir/jest-coverage-report/issues"
+  },
+  "homepage": "https://github.com/rafiyasir/jest-coverage-report#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0"
+  }
+}
